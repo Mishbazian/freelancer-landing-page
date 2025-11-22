@@ -53,21 +53,19 @@ img {
 }
 
 .btn--primary {
-  min-height: 66px;
-  background: #ffbb01;
-  color: #000;
-  font: normal bold 12px "Roboto", sans-serif;
-  line-height: minmax(130%, 32px);
-  text-transform: uppercase;
-  text-align: center;
-
-  border-radius: 6px;
-  border: none;
-  box-shadow: 0px 4px #b68500;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 66px;
   padding: 16px 32px;
+  background: #ffbb01;
+  color: #000;
+  font: normal bold 12px/1.3 "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 4px #b68500;
   cursor: pointer;
 }
 
