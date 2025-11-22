@@ -8,6 +8,12 @@
 ul {
   list-style: none;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* общие стили */
 
 .landing-page {
@@ -73,17 +79,10 @@ ul {
   gap: 16px;
 }
 
-.socials-list__item {
+.socials-list__item-link {
   width: 20px;
 }
-.socials-list__link {
-  width: 20px;
-}
-/* Сбрасываем стили изображения в ссылках */
-.link__img {
-  display: block;
-  width: 100%;
-}
+
 
 /* Шапка */
 

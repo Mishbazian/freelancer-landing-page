@@ -1,429 +1,218 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    >
 
-    <link rel="stylesheet" href="./style.css">
-    <title>Петр Федоров</title>
-  </head>
-  <body class="landing-page">
-    <header class="header theme--primary landing-page__section">
-      <a href="#" target="_blank" class="header__link"
-        ><img
-          src="./images/logo.svg"
-          alt="Дискорд"
-          class="header__link_img link__img"
-      ></a>
-      <address class="header__address">
-        <ul class="socials-list">
-          <li class="socials-list__item">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="socials-list__item-link"
-              ><img
-                src="./images/icons/socials/github.svg"
-                alt="Гитхаб"
-                class="socials-list__img link__img"
-            ></a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Петр Федоров</title>
+</head>
+
+<body class="landing-page">
+  <header class="header theme--primary landing-page__section">
+    <a href="#" target="_blank" rel="noopener noreferrer" class="header__link"><img src="./images/logo.svg"
+        alt="Дискорд" class="header__link-img"></a>
+    <address class="header__address">
+      <ul class="socials-list">
+        <li class="socials-list__item">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+              src="./images/icons/socials/github.svg" alt="Гитхаб" class="socials-list__item-img"></a>
+        </li>
+        <li class="socials-list__item">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+              src="./images/icons/socials/twitter.svg" alt="Твиттер" class="socials-list__item-img"></a>
+        </li>
+        <li class="socials-list__item">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+              src="./images/icons/socials/instagram.svg" alt="Инстаграм" class="socials-list__item-img"></a>
+        </li>
+        <li class="socials-list__item">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+              src="./images/icons/socials/facebook.svg" alt="Фейсбук" class="socials-list__item-img"></a>
+        </li>
+      </ul>
+    </address>
+  </header>
+  <main class="main theme--primary">
+    <section class="landing-page__section hero">
+      <div class="hero__avatar">
+        <img src="./images/Keanu.jpg" alt="Киану Ривз" class="hero__avatar-img">
+      </div>
+      <div class="hero__about">
+        <p class="hero__profession">Фрилансер</p>
+        <p class="hero__name page-title">Петр Федоров</p>
+
+        <h1 class="hero__about-text">
+          Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+          заказать дизайн и верстку небольшого сайта или интернет-магазина
+        </h1>
+        <a href="#contact-form" class="hero__btn btn--primary">Бесплатная консультация</a>
+      </div>
+    </section>
+    <section class="landing-page__section features theme--dark">
+      <h2 class="features__title section-title">Со мной удобно работать</h2>
+      <ul class="features__list">
+        <li class="features__list-item">
+          <img src="./images/icons/features/offer-img.svg" alt="" aria-hidden="true" class="features__list-item-icon">
+          <h3 class="features__list-item-title subtitle">По договору</h3>
+          <p class="features__list-item-text">
+            Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+            Работаю как ИП без НДС.
+          </p>
+        </li>
+        <li class="features__list-item">
+          <img src="./images/icons/features/deadline-img.svg" alt="" aria-hidden="true"
+            class="features__list-item-icon">
+          <h3 class="features__list-item-title subtitle">Точно в срок</h3>
+          <p class="features__list-item-text">
+            В договоре прописана моя ответственность за срок проекта. Если
+            просрочу — плачу неустойку.
+          </p>
+        </li>
+        <li class="features__list-item">
+          <img src="./images/icons/features/agreement-img.svg" alt="" aria-hidden="true"
+            class="features__list-item-icon">
+          <h3 class="features__list-item-title subtitle">Ценник под вас</h3>
+          <p class="features__list-item-text">
+            Если у вас нетиповой проект, сделаю рассчет цены за работу и
+            объясню, как складывается цена.
+          </p>
+        </li>
+        <li class="features__list-item">
+          <img src="./images/icons/features/steps-img.svg" alt="" aria-hidden="true" class="features__list-item-icon">
+          <h3 class="features__list-item-title subtitle">
+            Премежуточные итоги
+          </h3>
+          <p class="features__list-item-text">
+            Показываю работу поэтапно, а не<br>
+            в последий момент перед<br>
+            крайним сроком.
+          </p>
+        </li>
+        <li class="features__list-item">
+          <img src="./images/icons/features/storage-img.svg" alt="" aria-hidden="true" class="features__list-item-icon">
+          <h3 class="features__list-item-title subtitle">Хостинг и домен</h3>
+          <p class="features__list-item-text">
+            Если мы договорились о цене проекта, в неё входит всё: домен и
+            хостинг на год + SSL сертификат.
+          </p>
+        </li>
+        <li class="features__list-item">
+          <img src="./images/icons/features/conversation-img.svg" alt="" aria-hidden="true"
+            class="features__list-item-icon">
+          <h3 class="features__list-item-title subtitle">
+            Не брошу после сдачи
+          </h3>
+          <p class="features__list-item-text">
+            Научу вас или вашего сотрудника пользоваться сайтом, запишу<br>
+            видео-инструкции.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="portfolio landing-page__section">
+      <h2 class="portfolio__title section-title">Выполненные проекты</h2>
+      <ul class="portfolio__list">
+        <li class="project-card">
+          <img src="./images/portfolio/portfolio1.jpg" alt="Проект1" class="project-card__img" loading="lazy">
+          <div class="project-card__overlay"></div>
+          <h3 class="project-card__title text-accent">
+            The curious corner <br> of chamarel
+          </h3>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__button">
+            Посмотреть
+          </a>
+        </li>
+        <li class="project-card">
+          <img src="./images/portfolio/portfolio2.jpg" alt="Gymkhana club golf course" class="project-card__img"
+            loading="lazy">
+          <div class="project-card__overlay"></div>
+          <h3 class="project-card__title text-accent">
+            Gymkhana club golf<br> course
+          </h3>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__button">
+            Посмотреть
+          </a>
+        </li>
+        <li class="project-card">
+          <img src="./images/portfolio/portfolio3.jpg" alt="Портфолио3" class="project-card__img" loading="lazy">
+          <div class="project-card__overlay"></div>
+          <h3 class="project-card__title text-accent">
+            Tamarind falls hiking<br> trip - full day
+          </h3>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project-card__button">
+            Посмотреть
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="landing-page__section gallery theme--dark">
+      <img src="./images/gallery/gallery01.jpg" alt="Галерея01" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery02.jpg" alt="Галерея02" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery03.jpg" alt="Галерея03" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery04.jpg" alt="Галерея04" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery05.jpg" alt="Галерея05" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery06.jpg" alt="Галерея06" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery07.jpg" alt="Галерея07" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery08.jpg" alt="Галерея08" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery09.jpg" alt="Галерея09" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery10.jpg" alt="Галерея10" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery11.jpg" alt="Галерея11" class="gallery__pic" loading="lazy">
+      <img src="./images/gallery/gallery12.jpg" alt="Галерея12" class="gallery__pic" loading="lazy">
+    </section>
+    <section class="landing-page__section contacts">
+      <h2 class="contacts__title section-title">Свяжитесь со мной</h2>
+      <form class="contacts__form" id="contact-form" action="#" method="post">
+        <h3 class="contacts__form-label text-accent">
+          Можете просто оставить заявку, я позвоню вам сегодня
+        </h3>
+        <fieldset class="contacts__form-fieldset">
+          <input type="text" class="contacts__form-input contacts__form-input--user" name="client-name" id="client-name"
+            placeholder="Ваше имя" required>
+          <input type="tel" class="contacts__form-input contacts__form-input--phone" name="client-phone"
+            id="client-phone" placeholder="Ваш телефон" required>
+        </fieldset>
+        <input type="submit" class="contacts__form-submit btn--primary" value="Бесплатная консультация">
+      </form>
+      <address class="contacts__address">
+        <ul class="address__list">
+          <li class="address__list-item">
+            <p class="contacts__subtitle subtitle">Телефон</p>
+            <a href="tel:+79991234567" class="address__link">+7 999 123 45 67</a>
           </li>
-          <li class="socials-list__item">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="socials-list__link"
-              ><img
-                src="./images/icons/socials/twitter.svg"
-                alt="Твиттер"
-                class="socials-list__img link__img"
-            ></a>
+          <li class="address__list-item">
+            <p class="contacts__subtitle subtitle">Почта</p>
+            <a href="mailto:info@example.com" class="address__link">info@example.com</a>
           </li>
-          <li class="socials-list__item">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="socials-list__link link__img"
-              ><img
-                src="./images/icons/socials/instagram.svg"
-                alt="Инстаграм"
-                class="socials-list__img link__img"
-            ></a>
-          </li>
-          <li class="socials-list__item">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="socials-list__link"
-              ><img
-                src="./images/icons/socials/facebook.svg"
-                alt="Фейсбук"
-                class="socials-list__img link__img"
-            ></a>
+          <li class="address__list-item">
+            <p class="contacts__subtitle subtitle">Соцсети</p>
+            <ul class="address__socials-list socials-list">
+              <li class="socials-list__item">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+                    src="./images/icons/socials/github.svg" alt="Гитхаб" class="socials-list__item-img"></a>
+              </li>
+              <li class="socials-list__item">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+                    src="./images/icons/socials/twitter.svg" alt="Твиттер" class="socials-list__item-img"></a>
+              </li>
+              <li class="socials-list__item">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+                    src="./images/icons/socials/instagram.svg" alt="Инстаграм" class="socials-list__item-img"></a>
+              </li>
+              <li class="socials-list__item">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="socials-list__item-link"><img
+                    src="./images/icons/socials/facebook.svg" alt="Фейсбук" class="socials-list__img"></a>
+              </li>
+            </ul>
           </li>
         </ul>
       </address>
-    </header>
-    <main class="main theme--primary">
-      <section class="landing-page__section hero">
-        <div class="hero__avatar">
-          <img
-            src="./images/Keanu.jpg"
-            alt="Киану Ривз"
-            class="hero__avatar-img"
-          >
-        </div>
-        <div class="hero__about">
-          <p class="hero__profession">Фрилансер</p>
-          <p class="hero__name page-title">Петр Федоров</p>
+      <a class="politics" href="#">Политики конфиденциальности</a>
+    </section>
+  </main>
+</body>
 
-          <h1 class="hero__about-text">
-            Разрабатываю сайты для малого и среднего бизнеса. У меня можно
-            заказать дизайн и верстку небольшого сайта или интернет-магазина
-          </h1>
-          <a href="#contact-form" class="hero__btn btn--primary"
-            >Бесплатная консультация</a
-          >
-        </div>
-      </section>
-      <section class="landing-page__section features theme--dark">
-        <h2 class="features__title section-title">Со мной удобно работать</h2>
-        <ul class="features__list">
-          <li class="features__list-item">
-            <img
-              src="./images/icons/features/offer-img.svg"
-              alt=""
-              aria-hidden="true"
-              class="features__list-item-icon"
-            >
-            <h3 class="features__list-item-title subtitle">По договору</h3>
-            <p class="features__list-item-text">
-              Предоставлю все документы для бухгалтерии: договоры, счета и акты.
-              Работаю как ИП без НДС.
-            </p>
-          </li>
-          <li class="features__list-item">
-            <img
-              src="./images/icons/features/deadline-img.svg"
-              alt=""
-              aria-hidden="true"
-              class="features__list-item-icon"
-            >
-            <h3 class="features__list-item-title subtitle">Точно в срок</h3>
-            <p class="features__list-item-text">
-              В договоре прописана моя ответственность за срок проекта. Если
-              просрочу — плачу неустойку.
-            </p>
-          </li>
-          <li class="features__list-item">
-            <img
-              src="./images/icons/features/agreement-img.svg"
-              alt=""
-              aria-hidden="true"
-              class="features__list-item-icon"
-            >
-            <h3 class="features__list-item-title subtitle">Ценник под вас</h3>
-            <p class="features__list-item-text">
-              Если у вас нетиповой проект, сделаю рассчет цены за работу и
-              объясню, как складывается цена.
-            </p>
-          </li>
-          <li class="features__list-item">
-            <img
-              src="./images/icons/features/steps-img.svg"
-              alt=""
-              aria-hidden="true"
-              class="features__list-item-icon"
-            >
-            <h3 class="features__list-item-title subtitle">
-              Премежуточные итоги
-            </h3>
-            <p class="features__list-item-text">
-              Показываю работу поэтапно, а не<br>
-              в последий момент перед<br>
-              крайним сроком.
-            </p>
-          </li>
-          <li class="features__list-item">
-            <img
-              src="./images/icons/features/storage-img.svg"
-              alt=""
-              aria-hidden="true"
-              class="features__list-item-icon"
-            >
-            <h3 class="features__list-item-title subtitle">Хостинг и домен</h3>
-            <p class="features__list-item-text">
-              Если мы договорились о цене проекта, в неё входит всё: домен и
-              хостинг на год + SSL сертификат.
-            </p>
-          </li>
-          <li class="features__list-item">
-            <img
-              src="./images/icons/features/conversation-img.svg"
-              alt=""
-              aria-hidden="true"
-              class="features__list-item-icon"
-            >
-            <h3 class="features__list-item-title subtitle">
-              Не брошу после сдачи
-            </h3>
-            <p class="features__list-item-text">
-              Научу вас или вашего сотрудника пользоваться сайтом, запишу<br>
-              видео-инструкции.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="portfolio landing-page__section">
-        <h2 class="portfolio__title section-title">Выполненные проекты</h2>
-        <ul class="portfolio__list">
-          <li class="project-card">
-            <img
-              src="./images/portfolio/portfolio1.jpg"
-              alt="Проект1"
-              class="project-card__img"
-              loading="lazy"
-            >
-            <div class="project-card__overlay"></div>
-            <h3 class="project-card__title text-accent">
-              The curious corner of chamarel
-            </h3>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-card__button"
-            >
-              Посмотреть
-            </a>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/portfolio/portfolio2.jpg"
-              alt="Gymkhana club golf course"
-              class="project-card__img"
-              loading="lazy"
-            >
-            <div class="project-card__overlay"></div>
-            <h3 class="project-card__title text-accent">
-              Gymkhana club golf course
-            </h3>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-card__button"
-            >
-              Посмотреть
-            </a>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/portfolio/portfolio3.jpg"
-              alt="Портфолио3"
-              class="project-card__img"
-              loading="lazy"
-            >
-            <div class="project-card__overlay"></div>
-            <h3 class="project-card__title text-accent">
-              Tamarind falls hiking trip - full day
-            </h3>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-card__button"
-            >
-              Посмотреть
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section class="landing-page__section gallery theme--dark">
-        <img
-          src="./images/gallery/gallery01.jpg"
-          alt="Галерея01"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery02.jpg"
-          alt="Галерея02"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery03.jpg"
-          alt="Галерея03"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery04.jpg"
-          alt="Галерея04"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery05.jpg"
-          alt="Галерея05"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery06.jpg"
-          alt="Галерея06"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery07.jpg"
-          alt="Галерея07"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery08.jpg"
-          alt="Галерея08"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery09.jpg"
-          alt="Галерея09"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery10.jpg"
-          alt="Галерея10"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery11.jpg"
-          alt="Галерея11"
-          class="gallery__pic"
-          loading="lazy"
-        >
-        <img
-          src="./images/gallery/gallery12.jpg"
-          alt="Галерея12"
-          class="gallery__pic"
-          loading="lazy"
-        >
-      </section>
-      <section class="landing-page__section contacts">
-        <h2 class="contacts__title section-title">Свяжитесь со мной</h2>
-        <form class="contacts__form" id="contact-form" action="#" method="post">
-          <h3 class="contacts__form-label text-accent">
-            Можете просто оставить заявку, я позвоню вам сегодня
-          </h3>
-          <fieldset class="contacts__form-fieldset">
-            <input
-              type="text"
-              class="contacts__form-input contacts__form-input--user"
-              name="client-name"
-              id="client-name"
-              placeholder="Ваше имя"
-              required
-            >
-            <input
-              type="tel"
-              class="contacts__form-input contacts__form-input--phone"
-              name="client-phone"
-              id="client-phone"
-              placeholder="Ваш телефон"
-              required
-            >
-          </fieldset>
-          <input
-            type="submit"
-            class="contacts__form-submit btn--primary"
-            value="Бесплатная консультация"
-          >
-        </form>
-        <address class="contacts__address">
-          <ul class="address__list">
-            <li class="address__list-item">
-              <p class="contacts__subtitle subtitle">Телефон</p>
-              <a href="tel:+79991234567" class="address__link"
-                >+7 999 123 45 67</a
-              >
-            </li>
-            <li class="address__list-item">
-              <p class="contacts__subtitle subtitle">Почта</p>
-              <a href="mailto:info@example.com" class="address__link"
-                >info@example.com</a
-              >
-            </li>
-            <li class="address__list-item">
-              <p class="contacts__subtitle subtitle">Соцсети</p>
-              <ul class="address__socials-list socials-list">
-                <li class="socials-list__item">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="socials-list__link"
-                    ><img
-                      src="./images/icons/socials/github.svg"
-                      alt="Гитхаб"
-                      class="socials-list__img"
-                  ></a>
-                </li>
-                <li class="socials-list__item">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="socials-list__link"
-                    ><img
-                      src="./images/icons/socials/twitter.svg"
-                      alt="Твиттер"
-                      class="socials-list__img"
-                  ></a>
-                </li>
-                <li class="socials-list__item">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="socials-list__link"
-                    ><img
-                      src="./images/icons/socials/instagram.svg"
-                      alt="Инстаграм"
-                      class="socials-list__img"
-                  ></a>
-                </li>
-                <li class="socials-list__item">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="socials-list__link"
-                    ><img
-                      src="./images/icons/socials/facebook.svg"
-                      alt="Фейсбук"
-                      class="socials-list__img"
-                  ></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </address>
-        <a class="politics" href="#">Политики конфиденциальности</a>
-      </section>
-    </main>
-  </body>
 </html>
